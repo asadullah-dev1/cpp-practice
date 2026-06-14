@@ -10,7 +10,7 @@ int main (){
      cout<<"Enter Number two "<<endl;
      cin>>n2;
     if(n1>n2){
-        cout << n1<< " is greater " <<endl;
+        cout << n1 << " is greater " <<endl;
         greater = n1;
 
     } 
