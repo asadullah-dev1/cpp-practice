@@ -7,8 +7,20 @@ int main(){
     cout<<" Enter amount of you're purchase "<<endl;
     cin>>amount;
     if(amount>10000){
-        cout<<"you got 20% off"<<amount-(amount*20/100)<<endl;
+        cout<<"you got 20% off" << amount-(amount*20/100)<<endl;
     }
+    else if (amount>5000){
+        cout<<"you got 10% discount " << amount-(amount*10/100)<<endl;
+
+    }
+    else if (amount>2000)
+    {
+        cout<<"you got 5% discount " << amount-(amount*5/100)<<endl;
+    }
+    else 
+        cout<<" No discount "<<endl;
+    
+    
     return 0;
 
 }
