@@ -32,10 +32,10 @@ int main(){
       else if (marks>=58 && marks<63 ){
         cout <<" you got C- grade "<<endl;
     }
-      else if (marks>=54 && marks<58 ){
+      else if (marks>=53 && marks<58 ){
         cout <<" you got D+ grade "<<endl;
     }
-      else if (marks>=50 && marks<54 ){
+      else if (marks>=50 && marks<53 ){
         cout <<" you got D grade "<<endl;
     }
     else{
