@@ -13,7 +13,7 @@
                 if(arrays[j]%2==0){
                     even++;
                     
-                cout<<" This is even numbers " << arrays[j] << endl;
+                cout<<" This is an even numbers " << arrays[j] << endl;
                 cout<<" The number of even count is " << even <<endl;      
             }
             
