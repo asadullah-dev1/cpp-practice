@@ -1,17 +1,37 @@
-#include <iostream> 
+// */7. Basic Union — Easy
+
+// Create a union:
+
+// union Data
+
+// with:
+
+// int
+// float
+// char
+
+// Store an integer in it and display it.
+
+// Then store a float and display it.
+
+// Question: What happens to the previous integer?/*
+#include <iostream>
 using namespace std;
-union data{
+
+union Data {
     int i;
-    float a;
+    float f;
     char c;
 };
-int main(){
-    data d;
-    cout << "Enter an integer: " << endl;
-    cin>>d.i;
 
-cout << " The number is "<< d.i << endl;
+int main() {
+    Data d;
 
+    d.i = 10;
+    cout << "Integer: " << d.i << endl;
+
+    d.f = 5.5;
+    cout << "Float: " << d.f << endl;
 
     return 0;
 }
