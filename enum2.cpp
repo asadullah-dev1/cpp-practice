@@ -11,13 +11,13 @@ int main (){
     cin>> choice;
     switch(choice){
         case red:
-        cout<< "Red";
+        cout<< "Stop";
         break;
         case yellow:
-        cout<< "Yellow";
+        cout<< "Get Ready";
         break;
         case green:
-        cout<<"green";
+        cout<<"Go";
         break;
         default:
         cout << "Invalid Num " ;
