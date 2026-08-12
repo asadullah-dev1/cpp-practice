@@ -1,3 +1,14 @@
+/*Q3. Countdown
+Write a recursive function:
+void countdown(int n)
+For:
+countdown(5);
+Expected:
+5
+4
+3
+2
+1*/
 #include <iostream> 
 using namespace std;
 void countdown(int n){
