@@ -8,7 +8,7 @@ int main () {
     
     switch(num){
         case 1:
-        for(int i=0; i <=10 ; i++){
+        for(int i=1; i <=10 ; i++){
             cout << " 1" << " X " << i << " = " << i*1 <<endl;
         }
         break;
